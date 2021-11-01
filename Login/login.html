@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Login and Registration Form</title>
+</head>
+<body>
+	<div class="navbar">
+		<ul>
+			<li><a href="default.asp">Home</a></li>
+			<li><a href="news.asp">News</a></li>
+			<li><a href="contact.asp">Contact</a></li>
+			<li><a href="about.asp">About</a></li>
+		</ul>
+	</div>
+
+	<div class="hero">
+		<div class="formbox">
+			<div class="buttombox">
+				<div id="btn"></div>
+				<button type="button" class="togglebtn" onclick="login()">Log In</button>
+				<button type="button" class="togglebtn" onclick="register()">Register</button>
+				</div>
+			<div class="socialicons">
+					<img src="img/fb.png">
+					<img src="img/tw.png">
+					<img src="img/gp.png">
+				</div>
+				<form id="login" class="input-group">
+					<input type="text" class="input-field" placeholder="Users name" required>
+					<input type="text" class="input-field" placeholder="Enter Password" required>
+					<input type="checkbox" class="check-box"><span>Remeber Password</span>
+					<button type="submit" class="submit-btn">Log In</button>
+				</form>
+				<form id="register" class="input-group">
+					<input type="text" class="input-field" placeholder="Users name" required>
+					<input type="email" class="input-field" placeholder="Email Adress" required>
+					<input type="email" class="input-field" placeholder="Enter Password" required>
+					<input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+					<button type="submit" class="submit-btn">Register</button>
+				</form>
+		</div>
+	</div>
+
+	<footer class="footer-basic">
+		<ul class="list-inline">
+			<li class="list-inline-item"><a href="#">Home</a></li>
+			<li class="list-inline-item"><a href="#">Services</a></li>
+			<li class="list-inline-item"><a href="#">About</a></li>
+			<li class="list-inline-item"><a href="#">Terms</a></li>
+			<li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+		</ul>
+		<p class="copyright">Company Name © 2018</p>
+	</footer>
+        
+	<script src="main.js">	</script>
+
+</body>
+</html>
